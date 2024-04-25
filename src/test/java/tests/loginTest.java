@@ -54,8 +54,5 @@ public class loginTest {
         ReusableMethods.waitForVisibility(loginPage.userMenu,10);
         Assert.assertTrue(loginPage.userMenu.isDisplayed());
 
-
-
-
     }
 }
