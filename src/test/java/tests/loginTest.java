@@ -42,11 +42,11 @@ public class loginTest {
         Actions actions = new Actions(Driver.getDriver());
         actions.click(loginPage.rememberMe).perform();
 
-        if (registerPage.capthcha.isDisplayed()){
-           actions.click(registerPage.capthcha).perform();
-        }else {
-           return;
-        }
+//        if (registerPage.capthcha.isDisplayed()){
+//           actions.click(registerPage.capthcha).perform();
+//        }else {
+//           return;
+//        }
 
         ReusableMethods.waitForClickablility(loginPage.loginButton,10);
         loginPage.loginButton.click();
