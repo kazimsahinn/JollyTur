@@ -62,10 +62,56 @@ public class homePage {
     @FindBy(xpath = "//a[.='Kampanyalar']")
     public WebElement kampanyalar;
 
+    @FindBy(xpath = "//*[@class='tab tab-button active']")
+    public WebElement otel;
+    @FindBy(xpath = "//*[@id='travelHotelSearch']")
+    public WebElement gidilecekYer;
+    @FindBy(xpath = "(//*[@class='big-title'])[1]")
+    public WebElement girisTarihi;
+    @FindBy(xpath = "(//*[@class='big-title'])[2]")
+    public WebElement cikisTarihi;
 
+    @FindBy(xpath = "(//*[@class='big-title'])[3]")
+    public WebElement odaVeKisiSayisi;
+    @FindBy(xpath = "(//*[@class='list action-button'])[1]")
+    public WebElement hemenAra;
+    @FindBy(xpath = "//*[@class='ui-icon ui-icon-circle-triangle-e']")
+    public WebElement tarihSayfasiDegis;
+    @FindBy(xpath = "(//*[@class='ui-state-default'])[12]")
+    public WebElement birinciTarih;
+    @FindBy(xpath = "(//*[@class='ui-state-default'])[17]")
+    public WebElement ikinciTarih;
 
+    @FindBy(xpath = "(//*[@data-val='2'])[1]")
+    public WebElement yetiskinSayisiGuncel;
 
+    @FindBy(xpath = "(//*[@class='inc button buttonSelect'])[1]")
+    public WebElement yetiskinSayisiArti;
+    @FindBy(xpath = "(//*[@class='dec button buttonSelect'])[1]")
+    public WebElement yetiskinSayisiEksi;
 
+    @FindBy(xpath = "(//*[@class='inc button buttonSelect'])[2]")
+    public WebElement cocukSayisiArti;
+    @FindBy(xpath = "(//*[@class='dec button buttonSelect'])[2]")
+    public WebElement cocukSayisiEksi;
+
+    @FindBy(xpath = "//*[@class='add-room ']")
+    public WebElement odaEkle;
+
+    @FindBy(xpath = "(//*[@class='inc button buttonSelect'])[3]")
+    public WebElement ikinciOdaYetiskinSayisiArti;
+    @FindBy(xpath = "(//*[@class='dec button buttonSelect'])[3]")
+    public WebElement ikinciOdaYetiskinSayisiEksi;
+
+    @FindBy(xpath = "(//*[@class='inc button buttonSelect'])[4]")
+    public WebElement ikinciOdaCocukSayisiArti;
+    @FindBy(xpath = "(//*[@class='dec button buttonSelect'])[4]")
+    public WebElement ikinciOdaCocukSayisiEksi;
+    @FindBy(xpath = "(//*[@name='firstChildAge'])[2]")
+    public WebElement cocukYasi;
+
+    @FindBy(xpath = "//*[@class='button primary small trigger-search float-right inline']")
+    public WebElement kisiSayisiUygula;
 
 
 
